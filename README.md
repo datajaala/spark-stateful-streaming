@@ -1,6 +1,6 @@
 # Spark structured streaming arbitrary stateful operations with deltalake: <br> Case breakpoint transformation
 
-In breakpoint time series only changed values are indicated and therefore the data must be to transformed to equally sampled data before using in most time series algorithms. To see example system input and output press [here](https://kaskeaja.github.io/spark-stateful-streaming/breakpoint_to_equally_sampled.html) 
+In breakpoint time series only changed values are indicated and therefore the data must be to transformed to equally sampled data before using in most time series algorithms. To see example system input and output press [here](https://datajaala.github.io/spark-stateful-streaming/breakpoint_to_equally_sampled.html) 
 
 System description:
 * Breakpoint writer, spark structured streaming and Jupyter lab are run separate docker containers
